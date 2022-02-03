@@ -1,3 +1,8 @@
+
+
+let computerSelection;
+let playerSelection;
+
 function computerPlay () {
     let randomNumber = Math.floor(Math.random()*3);
     console.log(randomNumber);
@@ -20,8 +25,8 @@ function computerPlay () {
 
 function playRound(playerSelection, computerSelection){
 
-    let upperCaseplayerSelection = playerSelection.toUpperCase();
-  
+    let upperCaseplayerSelection = playerSelection.toUpperCase();    
+
         if (upperCaseplayerSelection === computerSelection){
             return "Draw!";
         } else if ((upperCaseplayerSelection === "ROCK")&&(computerSelection === "PAPER")){
@@ -41,3 +46,18 @@ function playRound(playerSelection, computerSelection){
         }
 }
 
+function game() {
+    console.log("Hello world");
+}
+
+
+
+
+
+
+let playerScore = 0;
+let computerScore = 0;
+
+for (let roundCounter = 0; roundCounter <= 4; roundCounter++) {
+    game();
+}
