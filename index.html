@@ -3,10 +3,44 @@
 <head>
     <meta charset="utf-8">
     <title>Rock, Paper, Scissors</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+
 </head>
 
 <body>
+
+<h1>Rock, Paper, Scissors Game</h1>
+
+<div class="buttonContainer">
+    
+    <div class="imageContainer">
+        <img id = "rock-image" src="images/rock.png" alt="Rock icon">
+        <button id="rock-button">Rock</button> 
+    </div>
+    
+    <div class="imageContainer">
+        <img id = "paper-image" src="images/paper.png" alt="Paper icon">
+        <button id="paper-button">Paper</button> 
+    </div>
+    
+    <div class="imageContainer">
+        <img id = "scissors-image" src="images/scissors.png" alt="Scissors icon">
+        <button id="scissors-button">Scissors</button> 
+    </div>
+
+</div>
+
+<div class = "resultParas">
+    <p class = "userGamePlay"></p>
+    <p class = "computerGamePlay"></p><br>
+    <p class = "gameResult"> </p>
+    <p class = "scoreBoard"> </p>
+    <p class = "finalResult"> </p>
+</div>
+
+<button class ="newGame">New Game</button>
 
 </body>
 

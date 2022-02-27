@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+button {
+    background-color: pink;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 50px;
+    margin: 20px;
+
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.scoreBoard {
+    font-weight:bolder;
+}
+
+
+
